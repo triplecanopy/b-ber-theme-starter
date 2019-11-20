@@ -1,0 +1,8 @@
+// Declare namespaces
+@namespace url("http://www.w3.org/1999/xhtml");
+@namespace epub url("http://www.idpf.org/2007/ops");
+
+// Load vendor libraries included in node_modules. b-ber implements a custom
+// importer that interprets the tilde (~) as a shortcut for node_modules. The
+// modular-scale library here is not required, but only used as an example
+@import "~modularscale-sass";
